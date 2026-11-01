@@ -32,7 +32,10 @@ base = /api
 
 ## Screenshots
 
-![App Screenshot](https://github.com/ShashankOO7/URL-Shortener/blob/main/Screenshots/Home.jpeg?raw=true)
+![App Screenshot](https://github.com/ShashankOO7/URL-Shortener/blob/main/url-shortener-docs/Screenshot%202025-08-14%20at%2011.15.02%E2%80%AFPM.png?raw=true)
+![App Screenshot](https://github.com/ShashankOO7/URL-Shortener/blob/main/url-shortener-docs/Screenshot%202025-08-25%20at%201.03.20%E2%80%AFAM.png?raw=true)
+![App Screenshot](https://github.com/ShashankOO7/URL-Shortener/blob/main/url-shortener-docs/Screenshot%202025-08-21%20at%2011.34.42%E2%80%AFAM.png?raw=true)
+![App Screenshot](https://github.com/ShashankOO7/URL-Shortener/blob/main/url-shortener-docs/Screenshot%202025-05-15%20at%201.57.36%E2%80%AFAM.png?raw=true)
 
 ## Features
 
