@@ -1,0 +1,20 @@
+.bg-shape {
+  background-color: #181E29;
+  border-radius: 3rem;
+  transform: rotate(45deg);
+  box-shadow: 0px 0px 30px rgba(1, 1, 1, 1);
+}
+@keyframes rotate-slow {
+  0% { transform: rotate(45deg); }
+  100% { transform: rotate(405deg); }
+}
+@keyframes rotate-reverse {
+  0% { transform: rotate(45deg); }
+  100% { transform: rotate(-315deg); }
+}
+.animate-rotate-slow {
+  animation: rotate-slow 40s linear infinite;
+}
+.animate-rotate-reverse {
+  animation: rotate-reverse 60s linear infinite;
+}

@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "url-shortener-frontend": "file:url-shortner-react"
+  }
+}

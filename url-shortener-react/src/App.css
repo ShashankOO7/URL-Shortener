@@ -1,0 +1,17 @@
+@import "tailwindcss";
+@theme {
+  /* Optional: you can customize variables here */
+  --color-background-light: #f5f5f7;
+  --color-background-dark: #111827;
+  --color-text-light: #111827;
+  --color-text-dark: #f9fafb;
+}
+/* Apply background/text colors for light/dark themes */
+html {
+  background-color: var(--color-background-light);
+  color: var(--color-text-light);
+}
+html.dark {
+  background-color: var(--color-background-dark);
+  color: var(--color-text-dark);
+}

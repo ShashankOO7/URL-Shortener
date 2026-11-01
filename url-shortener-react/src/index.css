@@ -1,0 +1,25 @@
+/* Import fonts first */
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&display=swap");
+@import "tailwindcss";
+/* Custom font classes if needed */
+body {
+  font-family: 'Roboto', sans-serif;
+}
+@custom-variant dark (&:where(.dark, .dark *));
+html,
+body,
+#root {
+  height: 100%;
+}
+@theme {
+    --color-background: #f5f5f7;
+    --color-secondary: #000000;
+    --color-btn: #144EE3
+    /* --color-tertiary: #000000;
+    --color-tertiary-dark: #ffffff; */
+}
+.dark {
+  --color-background: #0b101b;
+  --color-secondary: #ffffff;
+}
