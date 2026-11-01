@@ -1,7 +1,7 @@
 export const globalConstants = {
     APP_TITLE: "Linkly",
-    baseUrl: "http://localhost:8080",
-    apiBaseUrl: "http://localhost:8080/api",
+    baseUrl: import.meta.env.VITE_BACKEND_URL || "http://localhost:8080",
+    apiBaseUrl: `${import.meta.env.VITE_BACKEND_URL || "http://localhost:8080"}/api`,
     footer: {
         text: "to enjoy Unlimited History",
     },
