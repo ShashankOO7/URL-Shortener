@@ -29,7 +29,7 @@ const ShortenItem = ({ originalUrl, shortUrl, clickCount, createdDate }) => {
   const [selectedUrl, setSelectedUrl] = useState("");
   const [analyticsData, setAnalyticsData] = useState([]);
   const fullShortLink =
-    (import.meta.env.VITE_REACT_FRONT_END_URL||"").replace(/\/$/,"") + "s/" + shortUrl;
+    (import.meta.env.VITE_REACT_FRONT_END_URL||"").replace(/\/$/,"") + "/s/" + shortUrl;
   const subDomain = import.meta.env.VITE_REACT_FRONT_END_URL.replace(
     /^https?:\/\//,
     ""
@@ -174,10 +174,10 @@ const ShortenItem = ({ originalUrl, shortUrl, clickCount, createdDate }) => {
             <>
               {(!analyticsData || analyticsData.length === 0) && (
                 <div className="absolute flex flex-col justify-center sm:items-center items-end w-full left-0 top-0 bottom-0 right-0 m-auto">
-                  <h1 className="font-serif sm:text-2xl text-[15px] font-bold mb-1 text-slate-800">
+                  <h1 className={`font-serif sm:text-2xl text-[15px] font-bold mb-1 ${isDark ? "text-slate-200" : "text-slate-800"}`}>
                     No Data For This Time Period
                   </h1>
-                  <h3 className="sm:w-96 w-[90%] sm:ml-0 pl-6 text-center sm:text-lg text-[12px] text-slate-600">
+                  <h3 className={`sm:w-96 w-[90%] sm:ml-0 pl-6 text-center sm:text-lg text-[12px] ${isDark ? "text-slate-400" : "text-slate-600"}`}>
                     Share your short link to view where your engagements are
                     coming from
                   </h3>
