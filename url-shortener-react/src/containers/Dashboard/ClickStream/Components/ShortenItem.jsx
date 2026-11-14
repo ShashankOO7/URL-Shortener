@@ -97,7 +97,7 @@ const ShortenItem = ({ originalUrl, shortUrl, clickCount, createdDate }) => {
               className="text-sm font-medium truncate text-blue-400 hover:underline"
               to={fullShortLink}
             >
-              {subDomain.replace(/\/$/,"") + "s/" + shortUrl}
+              {subDomain.replace(/\/$/,"") + "/s/" + shortUrl}
             </Link>
             <FaExternalLinkAlt className="text-blue-400 w-3 h-3 flex-shrink-0" />
           </div>
